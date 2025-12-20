@@ -1,0 +1,42 @@
+{
+  "LOG": false,
+  "LOG_LEVEL": "debug",
+  "CLAUDE_PATH": "",
+  "HOST": "127.0.0.1",
+  "PORT": 3456,
+  "APIKEY": "",
+  "API_TIMEOUT_MS": "600000",
+  "PROXY_URL": "",
+  "transformers": [],
+  "Providers": [
+    {
+      "name": "openai",
+      "api_base_url": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "api_key": "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",
+      "models": [
+        "deepseek-ai/deepseek-r1-0528",
+        "moonshotai/kimi-k2-thinking"
+      ]
+    }
+  ],
+  "StatusLine": {
+    "enabled": false,
+    "currentStyle": "default",
+    "default": {
+      "modules": []
+    },
+    "powerline": {
+      "modules": []
+    }
+  },
+  "Router": {
+    "default": "openai,deepseek-ai/deepseek-r1-0528",
+    "background": "openai,deepseek-ai/deepseek-r1-0528",
+    "think": "openai,deepseek-ai/deepseek-r1-0528",
+    "longContext": "openai,deepseek-ai/deepseek-r1-0528",
+    "longContextThreshold": 60000,
+    "webSearch": "openai,deepseek-ai/deepseek-r1-0528",
+    "image": "openai,deepseek-ai/deepseek-r1-0528"
+  },
+  "CUSTOM_ROUTER_PATH": ""
+}
