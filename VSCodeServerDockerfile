@@ -8,6 +8,3 @@ RUN npm install -g @musistudio/claude-code-router
 
 COPY config.json /config.json
 COPY config.json /root/.claude-code-router/config.json
-
-ENV SHELL=/bin/bash
-ENTRYPOINT ["/bin/bash"]
